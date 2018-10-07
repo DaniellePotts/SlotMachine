@@ -1,0 +1,16 @@
+c:\users\danie\source\repos\SlotMachine\ConsoleApp1\bin\Debug\netcoreapp2.1\ConsoleApp1.deps.json
+c:\users\danie\source\repos\SlotMachine\ConsoleApp1\bin\Debug\netcoreapp2.1\ConsoleApp1.runtimeconfig.json
+c:\users\danie\source\repos\SlotMachine\ConsoleApp1\bin\Debug\netcoreapp2.1\ConsoleApp1.runtimeconfig.dev.json
+c:\users\danie\source\repos\SlotMachine\ConsoleApp1\bin\Debug\netcoreapp2.1\ConsoleApp1.dll
+c:\users\danie\source\repos\SlotMachine\ConsoleApp1\bin\Debug\netcoreapp2.1\ConsoleApp1.pdb
+c:\users\danie\source\repos\SlotMachine\ConsoleApp1\bin\Debug\netcoreapp2.1\SlotMachine.Data.dll
+c:\users\danie\source\repos\SlotMachine\ConsoleApp1\bin\Debug\netcoreapp2.1\SlotMachine.Data.pdb
+c:\users\danie\source\repos\SlotMachine\ConsoleApp1\obj\Debug\netcoreapp2.1\ConsoleApp1.csprojAssemblyReference.cache
+c:\users\danie\source\repos\SlotMachine\ConsoleApp1\obj\Debug\netcoreapp2.1\ConsoleApp1.csproj.CoreCompileInputs.cache
+c:\users\danie\source\repos\SlotMachine\ConsoleApp1\obj\Debug\netcoreapp2.1\ConsoleApp1.AssemblyInfoInputs.cache
+c:\users\danie\source\repos\SlotMachine\ConsoleApp1\obj\Debug\netcoreapp2.1\ConsoleApp1.AssemblyInfo.cs
+c:\users\danie\source\repos\SlotMachine\ConsoleApp1\obj\Debug\netcoreapp2.1\ConsoleApp1.csproj.CopyComplete
+c:\users\danie\source\repos\SlotMachine\ConsoleApp1\obj\Debug\netcoreapp2.1\ConsoleApp1.dll
+c:\users\danie\source\repos\SlotMachine\ConsoleApp1\obj\Debug\netcoreapp2.1\ConsoleApp1.pdb
+c:\users\danie\source\repos\SlotMachine\ConsoleApp1\bin\Debug\netcoreapp2.1\SlotMachine.Services.dll
+c:\users\danie\source\repos\SlotMachine\ConsoleApp1\bin\Debug\netcoreapp2.1\SlotMachine.Services.pdb

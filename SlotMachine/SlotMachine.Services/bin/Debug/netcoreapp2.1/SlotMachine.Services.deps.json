@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.1",
+    "signature": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.1": {
+      "SlotMachine.Services/1.0.0": {
+        "dependencies": {
+          "SlotMachine.Data": "1.0.0"
+        },
+        "runtime": {
+          "SlotMachine.Services.dll": {}
+        }
+      },
+      "SlotMachine.Data/1.0.0": {
+        "runtime": {
+          "SlotMachine.Data.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SlotMachine.Services/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SlotMachine.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
