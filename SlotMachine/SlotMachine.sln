@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2041
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SlotMachine.Data", "SlotMachine.Data\SlotMachine.Data.csproj", "{1AEEFBEF-CEAE-44EE-B186-630E88A8E2EC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SlotMachine.Data", "SlotMachine.Data\SlotMachine.Data.csproj", "{1AEEFBEF-CEAE-44EE-B186-630E88A8E2EC}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SlotMachine.Game", "ConsoleApp1\SlotMachine.Game.csproj", "{C47066AA-AB7B-45CD-981E-7DFE483858DB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SlotMachine.Services", "SlotMachine.Services\SlotMachine.Services.csproj", "{1FC3435D-AF7B-474F-AE4A-100B023BAA38}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SlotMachine.Services", "SlotMachine.Services\SlotMachine.Services.csproj", "{1FC3435D-AF7B-474F-AE4A-100B023BAA38}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SlotMachine.Controller", "SlotMachine.Controller\SlotMachine.Controller.csproj", "{3EBF2D8C-E267-4403-A899-B4286D041B88}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{1FC3435D-AF7B-474F-AE4A-100B023BAA38}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1FC3435D-AF7B-474F-AE4A-100B023BAA38}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1FC3435D-AF7B-474F-AE4A-100B023BAA38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3EBF2D8C-E267-4403-A899-B4286D041B88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EBF2D8C-E267-4403-A899-B4286D041B88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EBF2D8C-E267-4403-A899-B4286D041B88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EBF2D8C-E267-4403-A899-B4286D041B88}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

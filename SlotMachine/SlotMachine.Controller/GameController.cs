@@ -1,19 +1,18 @@
 ﻿using SlotMachine.Data;
+using SlotMachine.Services;
 using System;
-using System.Collections.Generic;
-using System.Linq;
 
-namespace SlotMachine.Services
+namespace SlotMachine.Controller
 {
-	public class GameService
+	public class GameController
 	{
 		public Player Player;
 		public SlotMachineService SlotMachine;
 
 
-		public GameService(Player player)
+		public GameController()
 		{
-			Player = player;
+			Player = new Player();
 			SlotMachine = new SlotMachineService();
 		}
 
@@ -28,7 +27,7 @@ namespace SlotMachine.Services
 			Console.WriteLine("How much money do you want to stake?");
 			this.Player.StakeAmount = Convert.ToDouble(Console.ReadLine());
 
-			while(this.Player.StakeAmount > this.Player.Balance)
+			while (this.Player.StakeAmount > this.Player.Balance)
 			{
 				Console.WriteLine("Cannot stake more than the current balance. Balance is: " + this.Player.Balance);
 				this.Player.StakeAmount = Convert.ToDouble(Console.ReadLine());

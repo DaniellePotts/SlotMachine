@@ -8,11 +8,18 @@
     ".NETCoreApp,Version=v2.1": {
       "SlotMachine.Game/1.0.0": {
         "dependencies": {
-          "SlotMachine.Data": "1.0.0",
-          "SlotMachine.Services": "1.0.0"
+          "SlotMachine.Controller": "1.0.0"
         },
         "runtime": {
           "SlotMachine.Game.dll": {}
+        }
+      },
+      "SlotMachine.Controller/1.0.0": {
+        "dependencies": {
+          "SlotMachine.Services": "1.0.0"
+        },
+        "runtime": {
+          "SlotMachine.Controller.dll": {}
         }
       },
       "SlotMachine.Data/1.0.0": {
@@ -32,6 +39,11 @@
   },
   "libraries": {
     "SlotMachine.Game/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SlotMachine.Controller/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

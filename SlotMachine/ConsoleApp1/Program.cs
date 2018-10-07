@@ -1,8 +1,4 @@
-﻿using System;
-using System.Linq;
-using System.Collections.Generic;
-using SlotMachine.Data;
-using SlotMachine.Services;
+﻿using SlotMachine.Controller;
 
 namespace ConsoleApp1
 {
@@ -10,12 +6,12 @@ namespace ConsoleApp1
 	{
 		static void Main(string[] args)
 		{
-			var gameService = new GameService(new Player());
+			var game = new GameController();
 
-			gameService.SetupGame();
-			gameService.Play();
+			game.SetupGame();
+			game.Play();
 
-			Console.ReadKey();
+			System.Console.ReadKey();
 		}
 	}
 }

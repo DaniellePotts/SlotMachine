@@ -30,3 +30,5 @@ C:\Users\danie\Documents\bede\SlotMachine\SlotMachine\ConsoleApp1\obj\Debug\netc
 C:\Users\danie\Documents\bede\SlotMachine\SlotMachine\ConsoleApp1\obj\Debug\netcoreapp2.1\SlotMachine.Game.csproj.CopyComplete
 C:\Users\danie\Documents\bede\SlotMachine\SlotMachine\ConsoleApp1\obj\Debug\netcoreapp2.1\SlotMachine.Game.dll
 C:\Users\danie\Documents\bede\SlotMachine\SlotMachine\ConsoleApp1\obj\Debug\netcoreapp2.1\SlotMachine.Game.pdb
+C:\Users\danie\Documents\bede\SlotMachine\SlotMachine\ConsoleApp1\bin\Debug\netcoreapp2.1\SlotMachine.Controller.dll
+C:\Users\danie\Documents\bede\SlotMachine\SlotMachine\ConsoleApp1\bin\Debug\netcoreapp2.1\SlotMachine.Controller.pdb

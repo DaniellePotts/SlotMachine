@@ -208,6 +208,19 @@
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
       },
+      "SlotMachine.Controller/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.1",
+        "dependencies": {
+          "SlotMachine.Services": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/SlotMachine.Controller.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SlotMachine.Controller.dll": {}
+        }
+      },
       "SlotMachine.Data/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.1",
@@ -697,6 +710,11 @@
         "netstandard.library.nuspec"
       ]
     },
+    "SlotMachine.Controller/1.0.0": {
+      "type": "project",
+      "path": "../SlotMachine.Controller/SlotMachine.Controller.csproj",
+      "msbuildProject": "../SlotMachine.Controller/SlotMachine.Controller.csproj"
+    },
     "SlotMachine.Data/1.0.0": {
       "type": "project",
       "path": "../SlotMachine.Data/SlotMachine.Data.csproj",
@@ -711,8 +729,7 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
       "Microsoft.NETCore.App >= 2.1.0",
-      "SlotMachine.Data >= 1.0.0",
-      "SlotMachine.Services >= 1.0.0"
+      "SlotMachine.Controller >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -745,11 +762,8 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "C:\\Users\\danie\\Documents\\bede\\SlotMachine\\SlotMachine\\SlotMachine.Data\\SlotMachine.Data.csproj": {
-              "projectPath": "C:\\Users\\danie\\Documents\\bede\\SlotMachine\\SlotMachine\\SlotMachine.Data\\SlotMachine.Data.csproj"
-            },
-            "C:\\Users\\danie\\Documents\\bede\\SlotMachine\\SlotMachine\\SlotMachine.Services\\SlotMachine.Services.csproj": {
-              "projectPath": "C:\\Users\\danie\\Documents\\bede\\SlotMachine\\SlotMachine\\SlotMachine.Services\\SlotMachine.Services.csproj"
+            "C:\\Users\\danie\\Documents\\bede\\SlotMachine\\SlotMachine\\SlotMachine.Controller\\SlotMachine.Controller.csproj": {
+              "projectPath": "C:\\Users\\danie\\Documents\\bede\\SlotMachine\\SlotMachine\\SlotMachine.Controller\\SlotMachine.Controller.csproj"
             }
           }
         }
